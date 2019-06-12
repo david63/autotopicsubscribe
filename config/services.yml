@@ -1,0 +1,10 @@
+services:
+    david63.autotopicsubscribe.listener:
+        class: david63\autotopicsubscribe\event\listener
+        arguments:
+            - '@dbal.conn'
+            - '@request'
+            - '@template'
+            - '@user'
+        tags:
+            - { name: event.listener }

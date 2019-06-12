@@ -1,0 +1,9 @@
+<hr>
+
+<dl>
+	<dt><label for="user_subscribe_topic">{{ lang('AUTO_SUBSCRIBE_TOPIC') }}{{ lang('COLON') }}</label><br><span>{{ lang('AUTO_SUBSCRIBE_TOPIC_EXPLAIN') }}</span></dt>
+	<dd>
+		<label for="user_subscribe_topic"><input type="radio" name="user_subscribe_topic" id="user_subscribe_topic" value="1"{% if S_SUBSCRIBE_TOPIC %} checked="checked"{% endif %} /> {{ lang('YES') }}</label>
+		<label for="user_subscribe_topic"><input type="radio" name="user_subscribe_topic" id="user_subscribe_topic" value="0"{% if not S_SUBSCRIBE_TOPIC %} checked="checked"{% endif %} /> {{ lang('NO') }}</label>
+	</dd>
+</dl>
