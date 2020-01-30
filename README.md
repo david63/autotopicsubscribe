@@ -9,6 +9,9 @@ Adds an option for a user to be automatically subscribed to a topic that they st
 [![Total Downloads](https://poser.pugx.org/david63/autotopicsubscribe/downloads)](https://packagist.org/packages/david63/autotopicsubscribe)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3ca201b680444e42a36f1f10ca4402a2)](https://www.codacy.com/manual/david63/autotopicsubscribe?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=david63/autotopicsubscribe&amp;utm_campaign=Badge_Grade)
 
+ [![Compatible](https://img.shields.io/badge/phpBB-3.2.x-blue.svg)]
+ [![Compatible](https://img.shields.io/badge/phpBB-3.3.x-blue.svg)]
+
 ## Minimum Requirements
 * phpBB 3.2.0
 * PHP 5.4
