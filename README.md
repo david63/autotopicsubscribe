@@ -2,11 +2,12 @@
 
 Adds an option for a user to be automatically subscribed to a topic that they start.
 
-[![Build Status](https://travis-ci.com/david63/autotopicsubscribe.svg?branch=master)](https://travis-ci.com/david63/autotopicsubscribe)
+[![Build Status](https://github.com/david63/autotopicsubscribe/workflows/Tests/badge.svg)](https://github.com/phpbb-extensions/david63/autotopicsubscribe)
 [![License](https://poser.pugx.org/david63/autotopicsubscribe/license)](https://packagist.org/packages/david63/autotopicsubscribe)
 [![Latest Stable Version](https://poser.pugx.org/david63/autotopicsubscribe/v/stable)](https://packagist.org/packages/david63/autotopicsubscribe)
 [![Latest Unstable Version](https://poser.pugx.org/david63/autotopicsubscribe/v/unstable)](https://packagist.org/packages/david63/autotopicsubscribe)
 [![Total Downloads](https://poser.pugx.org/david63/autotopicsubscribe/downloads)](https://packagist.org/packages/david63/autotopicsubscribe)
+[![codecov](https://codecov.io/gh/david63/autotopicsubscribe/branch/master/graph/badge.svg?token=D2500PgRex)](https://codecov.io/gh/david63/autotopicsubscribe)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3ca201b680444e42a36f1f10ca4402a2)](https://www.codacy.com/manual/david63/autotopicsubscribe?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=david63/autotopicsubscribe&amp;utm_campaign=Badge_Grade)
 
  [![Compatible](https://img.shields.io/badge/compatible-phpBB:3.2.x-blue.svg)](https://shields.io/)

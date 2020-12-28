@@ -8,3 +8,6 @@ services:
             - '@user'
         tags:
             - { name: event.listener }
+
+    _defaults:
+        public: true
