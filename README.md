@@ -10,12 +10,11 @@ Adds an option for a user to be automatically subscribed to a topic that they st
 [![codecov](https://codecov.io/gh/david63/autotopicsubscribe/branch/master/graph/badge.svg?token=D2500PgRex)](https://codecov.io/gh/david63/autotopicsubscribe)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3ca201b680444e42a36f1f10ca4402a2)](https://www.codacy.com/manual/david63/autotopicsubscribe?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=david63/autotopicsubscribe&amp;utm_campaign=Badge_Grade)
 
- [![Compatible](https://img.shields.io/badge/compatible-phpBB:3.2.x-blue.svg)](https://shields.io/)
  [![Compatible](https://img.shields.io/badge/compatible-phpBB:3.3.x-blue.svg)](https://shields.io/)
 
 ## Minimum Requirements
-* phpBB 3.2.0
-* PHP 5.4
+* phpBB 3.3.0
+* PHP 7.1.3
 
 ## Install
 1. [Download the latest release](https://github.com/david63/autotopicsubscribe/archive/3.2.zip) and unzip it.
@@ -31,5 +30,5 @@ Adds an option for a user to be automatically subscribed to a topic that they st
 ## License
 [GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)
 
-© 2019 - David Wood
+© 2021 - David Wood
 
