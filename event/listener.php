@@ -13,35 +13,39 @@ namespace david63\autotopicsubscribe\event;
 * @ignore
 */
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
+use phpbb\db\driver\driver_interface;
+use phpbb\request\request;
+use phpbb\template\template;
+use phpbb\user;
 
 /**
 * Event listener
 */
 class listener implements EventSubscriberInterface
 {
-	/** @var \phpbb\db\driver\driver_interface */
+	/** @var driver_interface */
 	protected $db;
 
-	/** @var \phpbb\request\request */
+	/** @var request */
 	protected $request;
 
-	/** @var \phpbb\template\template */
+	/** @var template */
 	protected $template;
 
-	/** @var \phpbb\user */
+	/** @var user */
 	protected $user;
 
 	/**
 	* Constructor for listener
 	*
-	* @param \phpbb\db\driver\driver_interface	$db
-	* @param \phpbb\request\request				$request	Request object
-	* @param \phpbb\template\template			$template	Template object
-	* @param \phpbb\user                		$user		User object
+	* @param driver_interface	$db
+	* @param request			$request	Request object
+	* @param template			$template	Template object
+	* @param user               $user		User object
 	*
 	* @access public
 	*/
-	public function __construct(\phpbb\db\driver\driver_interface $db, \phpbb\request\request $request, \phpbb\template\template $template, \phpbb\user $user)
+	public function __construct(driver_interface $db, request $request, template $template, user $user)
 	{
 		$this->db		= $db;
 		$this->request	= $request;
